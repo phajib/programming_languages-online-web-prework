@@ -1,8 +1,8 @@
 
 def reformat_languages(languages)
   new_hash = {} #build a new hash
-  languages.each do |style, data| #style: oo, functional. data: hash
-    data.each do |lang_name, describe| #lang_name: ruby, etc. describe: hash
+  languages.each do |style, value| #style: oo, functional. data: hash
+    value.each do |lang_name, describe| #lang_name: ruby, etc. describe: hash
        #set lang_name to be the key on top level
        #the value will be the hash(type=>...)
        if new_hash[lang_name] == nil
