@@ -1,6 +1,6 @@
 def reformat_languages(languages)
   new_hash = {}
-  langues.each do |lang_name, describe|
+  languages.each do |lang_name, describe|
     describe.each do |style, data|
       if new_hash[lang_name] == nil
         new_hash[lang_name] = describe
