@@ -19,7 +19,7 @@ def reformat_languages(languages)
 end
 =end
 
-=begin
+
 def reformat_languages(languages)
   new_hash = {} #build a new hash
   languages.each do |lang_name, describe| #style: oo, functional. data: hash
@@ -38,4 +38,3 @@ def reformat_languages(languages)
   end
   new_hash
 end
-=end
