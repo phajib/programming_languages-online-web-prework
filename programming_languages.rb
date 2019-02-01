@@ -6,9 +6,10 @@ def reformat_languages(languages)
        #the value will be the hash(type=>...)
        if new_hash[prog_lang] == nil
           new_hash[prog_lang] = attribute
+        end
           #set style key empty so we can add the style later
           new_hash[prog_lang][:style] = []
-        end
+        #end
         #add style to new_hash
         #if the same lang_name, it will go straight here and add style
         new_hash[prog_lang][:style] << style
